@@ -23,6 +23,7 @@ export function CardForm() {
 
     return (<div className={style.container}>
         <Form
+            style={{ marginRight: "auto", marginLeft: "auto" }}
             name="basic"
             labelCol={{
                 span: 10,
